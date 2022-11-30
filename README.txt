@@ -1,0 +1,2 @@
+¡Hola! La entrega fue "reciclando" codigo de la entrega 2 de js. Me di cuenta que el codigo lo pude haber
+optimizado mucho mas con funciones, por cuestiones de tiempo no me dio. Para la proxima entrega voy a hacer la mayor cantidad de funciones posibles.

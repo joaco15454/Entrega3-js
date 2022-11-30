@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Entrega2-Js</title>
+</head>
+<body>
+    <div class="container__main">
+         
+        <div class="container_select_id">
+            <h1>¡Selector de pizzas!</h1>
+            <label for="select_id">Ingresa el ID de la pizza solicitada:</label>
+            <input type="number" name="select_id" id="select_id" min="0" max="10">
+            <button id="boton_id">Buscar</button>
+        </div>
+        <div class="container__oculto oculto" id="container__oculto">
+            <div class="container__card" id="container__card">
+                <h1 id="pizza_nombre" class="oculto"></h1>
+                <h3 id="pizza_precio" class="oculto"></h3>
+                <img src="./assets/fugazzeta.jpg" alt="" id="imagen">
+                <p id="texto_error" class="texto_error oculto"></p>
+            </div>
+        </div>
+    </div>
+<script src="./main.js"></script>
+</body>
+</html>
